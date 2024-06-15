@@ -1,11 +1,11 @@
-# Telegram Mini Apps React Template
+# Telegram Mini Apps React Template Mini
 
 This template demonstrates how developers can implement a single-page application on the Telegram
+This is a simplified (mini) template that excludes TON Connect and react router integration.
 Mini Apps platform using the following technologies and libraries:
 
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [TON Connect](https://docs.ton.org/develop/dapps/ton-connect/overview)
 - [@tma.js SDK](https://docs.telegram-mini-apps.com/packages/tma-js-sdk)
 - [Telegram UI](https://github.com/Telegram-Mini-Apps/TelegramUI)
 - [Vite](https://vitejs.dev/)
@@ -180,7 +180,7 @@ And `vite.config.ts` should have this content:
 
 ```ts
 export default defineConfig({
-  base: '/is-awesome/',
+  base: "/is-awesome/",
   // ...
 });
 ```
@@ -205,7 +205,7 @@ npm run deploy
 
 After the deployment completed successfully, visit the page with data according to your
 username and repository name. Here is the page link example using the data mentioned above:
-https://telegram-mini-apps.github.io/is-awesome
+<https://telegram-mini-apps.github.io/is-awesome>
 
 ### GitHub Workflow
 
